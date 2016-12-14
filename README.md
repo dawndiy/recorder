@@ -1,5 +1,9 @@
 # Recorder
 
+[![GitHub release](https://img.shields.io/github/release/dawndiy/recorder.svg?maxAge=2592000)](https://github.com/dawndiy/recorder/releases/latest)
+[![license](https://img.shields.io/github/license/dawndiy/recorder.svg)](https://github.com/dawndiy/recorder/blob/master/LICENSE)
+[![Ubuntu Store](https://img.shields.io/badge/UbuntuStore-Recorder-E95420.svg)](https://uappexplorer.com/app/audio-recorder.ubuntu-dawndiy)
+
 <img src="Recorder/Recorder.png" width="150" />
 
 A beautiful audio recorder for Ubuntu Touch.
