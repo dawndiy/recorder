@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-13 03:53+0000\n"
+"POT-Creation-Date: 2016-12-14 15:37+0000\n"
 "PO-Revision-Date: 2016-12-08 02:12+0800\n"
 "Last-Translator: Cheng Lu <dawndiy.dev@gmail.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
@@ -64,7 +64,7 @@ msgstr "支持"
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:126
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:31
-#: /home/dawndiy/workspace/ubuntu-touch/build-recorder-UbuntuSDK_for_device_armhf_15_04_GCC_armhf_ubuntu_sdk_15_04-Debug/Recorder/Recorder.desktop.h:1
+#: /home/dawndiy/workspace/ubuntu-touch/build-recorder-UbuntuSDK_for_device_armhf_15_04_GCC_armhf_ubuntu_sdk_15_04-Release/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "錄音機"
 

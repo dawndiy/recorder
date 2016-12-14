@@ -18,7 +18,7 @@ A beautiful audio recorder for Ubuntu Touch.
 - Multiple encoding mode
 - Microphone volume control
 - Easy to play records in record list
-- Easy to export record via email, file explorer, etc.
+- Easy to export record to email, file explorer, etc.
 
 ## License
 

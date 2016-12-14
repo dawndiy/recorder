@@ -1,5 +1,5 @@
 {
-    "name": "recorder.ubuntu-dawndiy",
+    "name": "audio-recorder.ubuntu-dawndiy",
     "description": "Audio Recorder for Ubuntu.",
     "architecture": "@CLICK_ARCH@",
     "title": "Recorder",
