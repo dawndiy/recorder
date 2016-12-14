@@ -39,9 +39,9 @@ MainView {
     objectName: "mainView"
 
     // Note! applicationName needs to match the "name" field of the click manifest
-    applicationName: "recorder.ubuntu-dawndiy"
+    applicationName: "audio-recorder.ubuntu-dawndiy"
 
-    property string appVersion: "1.0.0"
+    property string appVersion: "1.0.1"
 
     width: units.gu(50)
     height: units.gu(75)
