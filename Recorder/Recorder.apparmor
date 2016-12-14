@@ -1,0 +1,10 @@
+{
+    "policy_groups": [
+        "networking",
+        "audio",
+        "microphone",
+        "content_exchange_source",
+        "keep-display-on"
+    ],
+    "policy_version": 1.3
+}

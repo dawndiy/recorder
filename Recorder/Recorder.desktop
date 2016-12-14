@@ -1,0 +1,9 @@
+[Desktop Entry]
+_Name=Recorder
+Exec=Recorder
+Icon=Recorder/Recorder.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Image=Recorder/Recorder-splash.png
+X-Ubuntu-Splash-Color=#4c9aa7

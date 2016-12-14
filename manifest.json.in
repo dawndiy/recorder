@@ -1,0 +1,16 @@
+{
+    "name": "recorder.ubuntu-dawndiy",
+    "description": "Audio Recorder for Ubuntu.",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Recorder",
+    "hooks": {
+        "Recorder": {
+            "apparmor": "Recorder/Recorder.apparmor",
+            "desktop": "Recorder/Recorder.desktop",
+            "content-hub": "Recorder/Recorder-content.json"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "DawnDIY <dawndiy.dev@gmail.com>",
+    "framework": "ubuntu-sdk-15.04.6"
+}

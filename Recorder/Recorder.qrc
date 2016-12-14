@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>ui/HomePage.qml</file>
+        <file>ui/SettingsPage.qml</file>
+        <file>ui/RecordsPage.qml</file>
+        <file>ui/AboutPage.qml</file>
+        <file>ui/SelectionPage.qml</file>
+        <file>component/ListItemHeader.qml</file>
+        <file>ui/DonatePage.qml</file>
+        <file>Recorder.png</file>
+        <file>component/HeaderButton.qml</file>
+        <file>image/alipay.png</file>
+        <file>image/paypal.png</file>
+        <file>image/wechat.png</file>
+        <file>image/sorting.svg</file>
+        <file>image/wechat_qrcode.png</file>
+        <file>image/alipay_qrcode.png</file>
+        <file>component/SnackBar.qml</file>
+        <file>ui/IntroPage.qml</file>
+    </qresource>
+</RCC>

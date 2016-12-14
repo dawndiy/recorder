@@ -35,3 +35,12 @@ Makefile*
 
 # QtCtreator CMake
 CMakeLists.txt.user
+
+# po
+po/template.pot
+
+# vim
+.*.swp
+
+# click
+*.click
