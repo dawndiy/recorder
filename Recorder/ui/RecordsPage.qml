@@ -495,6 +495,8 @@ Page {
                 text: i18n.tr("Save")
                 color: UbuntuColors.green
                 onClicked: {
+                    // make sure we flush everything we have prepared in the OSK preedit
+                    Qt.inputMethod.commit();
                     renameFile()
                     PopupUtils.close(dialogueRename)
                 }

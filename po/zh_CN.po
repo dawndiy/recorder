@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-17 21:31+0000\n"
+"POT-Creation-Date: 2016-12-17 21:37+0000\n"
 "PO-Revision-Date: 2016-12-08 02:12+0800\n"
 "Last-Translator: Cheng Lu <dawndiy.dev@gmail.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
@@ -188,8 +188,8 @@ msgstr "没有录音"
 
 #. TRANSLATORS: An action name for delete a record file.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:263
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:552
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:556
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:554
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:558
 msgid "Delete"
 msgstr "删除"
 
@@ -257,45 +257,45 @@ msgstr "请输入一个新的文件名。"
 msgid "Save"
 msgstr "保存"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:504
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:562
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:506
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:564
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:482
 msgid "Cancel"
 msgstr "取消"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:514
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:516
 msgid "Sort by"
 msgstr "排序"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:524
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:526
 msgid "Unsorted (default)"
 msgstr "不排序（默认）"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:525
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:527
 msgid "File name (ascending)"
 msgstr "文件名（升序）"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:526
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:528
 msgid "File name (descending)"
 msgstr "文件名（降序）"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:527
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:529
 msgid "Time modified (newest first)"
 msgstr "修改时间（最新在前）"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:528
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:530
 msgid "Time modified (oldest first)"
 msgstr "修改时间（最旧在前）"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:529
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:531
 msgid "Size (ascending)"
 msgstr "大小（升序）"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:530
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:532
 msgid "Size (descending)"
 msgstr "大小（降序）"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:553
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:555
 #, qt-format
 msgid "Do you want delete %1 ?"
 msgstr "你确定要删除 %1 ？"
