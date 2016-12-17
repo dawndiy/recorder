@@ -32,8 +32,8 @@ Page {
         settings.encodingMode = -1
         settings.encodingQuality = -1
         settings.bitrate = -1
-        disableScreenSaver = true
-        showSoundWave = true
+        settings.disableScreenSaver = true
+        settings.showSoundWave = true
         settings.microphoneVolume = 90
     }
 
