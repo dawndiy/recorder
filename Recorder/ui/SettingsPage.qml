@@ -35,6 +35,10 @@ Page {
         settings.disableScreenSaver = true
         settings.showSoundWave = true
         settings.microphoneVolume = 90
+
+        screenSaverSwitch.checked = settings.disableScreenSaver
+        soundWaveSwitch.checked = settings.showSoundWave
+        vSlider.value = settings.microphoneVolume
     }
 
     header: generalHeader
@@ -152,6 +156,7 @@ Page {
                     title.color: "white"
 
                     Switch {
+                        id: screenSaverSwitch
                         checked: settings.disableScreenSaver
                         onCheckedChanged: {
                             settings.disableScreenSaver = checked
@@ -168,6 +173,7 @@ Page {
                     title.color: "white"
 
                     Switch {
+                        id: soundWaveSwitch
                         checked: settings.showSoundWave
                         onCheckedChanged: {
                             settings.showSoundWave = checked
