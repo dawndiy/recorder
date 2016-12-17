@@ -49,6 +49,7 @@ Page {
         z: 1
         opacity: 1
         visible: settingsPage.header === generalHeader
+        // TRANSLATORS: The title of settings page
         title: i18n.tr("Settings")
 
         leadingActionBar.delegate: HeaderButton {}
@@ -63,6 +64,7 @@ Page {
         trailingActionBar.actions: [
             Action {
                 iconName: "view-expand"
+                // TRANSLATORS: The title of advanced settings page
                 text: i18n.tr("Advanced Settings")
                 onTriggered: {
                     settingsPage.state = "advanced"
@@ -344,6 +346,7 @@ Page {
                 ListItemLayout {
                     id: channelLayout
 
+                    // TRANSLATORS: The count of sound channel
                     title.text: i18n.tr("Channels")
                     title.color: "white"
 

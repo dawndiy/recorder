@@ -26,6 +26,7 @@ Page {
     id: aboutPage
 
     header: PageHeader {
+        // TRANSLATORS: Title of About page.
         title: i18n.tr("About")
         opacity: 1
 
@@ -45,7 +46,12 @@ Page {
                 horizontalCenter: parent.horizontalCenter
             }
 
-            model: [i18n.tr("About"), i18n.tr("Support")]
+            model: [
+                // TRANSLATORS: A section name of top Sections.
+                i18n.tr("About"),
+                // TRANSLATORS: A section name of top Sections.
+                i18n.tr("Support")
+            ]
 
             onSelectedIndexChanged: tabView.currentIndex = selectedIndex
 
@@ -139,6 +145,7 @@ Page {
                         width: parent.width
                         wrapMode: Text.WordWrap
                         horizontalAlignment: Text.AlignHCenter
+                        // TRANSLATORS: The summary of this App.
                         text: i18n.tr("Audio Recorder for Ubuntu.")
                         color: UbuntuColors.porcelain
                     }
@@ -163,6 +170,7 @@ Page {
                             width: parent.width
                             wrapMode: Text.WordWrap
                             horizontalAlignment: Text.AlignHCenter
+                            // TRANSLATORS: release license
                             text: i18n.tr("Released under the terms of the <a href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\">GNU GPL v3</a>")
                             onLinkActivated: Qt.openUrlExternally(link)
                             linkColor: "#85D8CE"

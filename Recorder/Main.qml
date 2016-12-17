@@ -90,14 +90,21 @@ MainView {
 
         readonly property var channelList: [1, 2]
         readonly property var qualityList: [
+            // TRANSLATORS: This is a quality option in Record Quality.
             i18n.tr("Very Low Quality"),
+            // TRANSLATORS: This is a quality option in Record Quality.
             i18n.tr("Low Quality"),
+            // TRANSLATORS: This is a quality option in Record Quality.
             i18n.tr("Normal Quality"),
+            // TRANSLATORS: This is a quality option in Record Quality.
             i18n.tr("High Quality"),
+            // TRANSLATORS: This is a quality option in Record Quality.
             i18n.tr("Very High Quality")
         ]
         readonly property var encodingModeList: [
+            // TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
             i18n.tr("Constant Quality"),
+            // TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
             i18n.tr("Constant Bitrate")
         ]
         readonly property var bitrateList: [
@@ -122,6 +129,7 @@ MainView {
 
         onError: {
             console.log(errorMessage)
+            // TRANSLATORS: This a reminder when some thing error.
             var tip = i18n.tr(" (Reset your settings will fix this.)")
             notification(errorMessage + tip, 5)
         }

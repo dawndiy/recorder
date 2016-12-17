@@ -63,7 +63,11 @@ Page {
 
     PageHeader {
         id: standardHeader
-        title: recordsPage.state === "standard" ? i18n.tr("Records") : i18n.tr("Export Records")
+        title: recordsPage.state === "standard" ?
+                   // TRANSLATORS: Title of record list page
+                   i18n.tr("Records") :
+                   // TRANSLATORS: Title of the export files page
+                   i18n.tr("Export Records")
         visible: recordsPage.header === standardHeader
         opacity: 1
 
@@ -73,6 +77,7 @@ Page {
         leadingActionBar.actions: [
             Action {
                 iconName: "back"
+                // TRANSLATORS: Go back previous page
                 text: i18n.tr("Back")
                 // onTriggered: recordsPage.pageStack.removePages(recordsPage)
                 onTriggered: pageLayout.removePage(recordsPage)
@@ -80,6 +85,7 @@ Page {
             },
             Action {
                 iconName: "close"
+                // TRANSLATORS: Close export file page
                 text: i18n.tr("Close")
                 visible: recordsPage.state === "exporter"
                 onTriggered: {
@@ -115,6 +121,7 @@ Page {
             },
             Action {
                 iconName: "tick"
+                // TRANSLATORS: OK to comfirm export files.
                 text: i18n.tr("OK")
                 onTriggered: exportFile()
                 visible: recordsPage.state === "exporter"
@@ -252,6 +259,7 @@ Page {
                 actions: [
                     Action {
                         iconName: "delete"
+                        // TRANSLATORS: An action name for delete a record file.
                         name: i18n.tr("Delete")
                         visible: recordsPage.state === "standard"
                         onTriggered: {
@@ -271,6 +279,7 @@ Page {
                 actions: [
                     Action {
                         iconName: "edit"
+                        // TRANSLATORS: An action name for rename the file name.
                         name: i18n.tr("Rename")
                         visible: recordsPage.state === "standard"
                         onTriggered: {
@@ -284,6 +293,7 @@ Page {
                     },
                     Action {
                         iconName: "info"
+                        // TRANSLATORS: An action name for the record file info.
                         name: i18n.tr("Info")
                         onTriggered: {
                             PopupUtils.open(dialogInfo, null, { 'fileIndex': index })
@@ -433,16 +443,19 @@ Page {
 
             Label {
                 wrapMode: Text.WrapAnywhere
+                // TRANSLATORS: The location where the record file is stored.
                 text: i18n.tr("<b>Location</b>: %1").arg(folderModel.get(fileIndex, "filePath"))
             }
 
             Label {
                 wrapMode: Text.WordWrap
+                // TRANSLATORS: The last accessed time.
                 text: i18n.tr("<b>Accessed</b>: %1").arg(folderModel.get(fileIndex, "fileAccessed"))
             }
 
             Label {
                 wrapMode: Text.WordWrap
+                // TRANSLATORS: The last modified time.
                 text: i18n.tr("<b>Modified</b>: %1").arg(folderModel.get(fileIndex, "fileModified"))
             }
 

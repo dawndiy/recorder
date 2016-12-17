@@ -37,6 +37,7 @@ Page {
         leadingActionBar.actions: [
             Action {
                 iconName: "media-playlist"
+                // TRANSLATORS: This is a tab action name. This action button will enter a page show recorded files.
                 text: i18n.tr("Records")
                 onTriggered: {
                     home.pageStack.addPageToCurrentColumn(
