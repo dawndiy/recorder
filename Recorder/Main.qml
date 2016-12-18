@@ -82,7 +82,7 @@ MainView {
 
     ScreenSaver {
         id: screenSaver
-        screenSaverEnabled: !settings.disableScreenSaver
+        screenSaverEnabled: !settings.disableScreenSaver || !Qt.application.active
     }
 
     Recorder {
