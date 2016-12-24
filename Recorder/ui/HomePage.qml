@@ -313,13 +313,15 @@ Page {
             name: "media-playback-stop"
             color: "#EEE"
 
+            opacity: recorder.recordState !== Recorder.StoppedState || player.playbackState !== MediaPlayer.StoppedState ? 1.0 : 0.3
+
             MouseArea {
                 id: btnStopMouseArea
                 anchors.fill: parent
                 onClicked: {
 
-                    Haptics.play()
                     if (recorder.recordState !== Recorder.StoppedState) {
+                        Haptics.play()
                         recorder.stop()
                         var absFilePath = recorder.filePath +
                                 "/" + recorder.fileName
@@ -329,6 +331,7 @@ Page {
                     }
 
                     if (player.playbackState !== MediaPlayer.StoppedState) {
+                        Haptics.play()
                         player.stop()
                         durationLabel.reset()
                     }
@@ -337,7 +340,7 @@ Page {
         }
 
         Rectangle {
-            visible: btnStopMouseArea.pressed
+            visible: btnStopMouseArea.pressed && btnStop.opacity == 1.0
             width: btnStop.width + units.gu(4)
             height: width
             anchors.centerIn: btnStop
@@ -346,6 +349,7 @@ Page {
         }
 
         Glow {
+            opacity: btnStop.opacity
             anchors.fill: btnStop
             radius: 8
             samples: 17
@@ -364,15 +368,15 @@ Page {
             }
             name: "media-playback-start"
             color: "#EEE"
+            opacity: recorder.recordState !== Recorder.StoppedState || player.source != "" ? 1.0 : 0.3
 
             MouseArea {
                 id: btnPlayMouseArea
                 anchors.fill: parent
                 onClicked: {
 
-                    Haptics.play()
-
                     if (recorder.recordState !== Recorder.StoppedState) {
+                        Haptics.play()
                         recorder.stop()
                         var absFilePath = recorder.filePath +
                                 "/" + recorder.fileName
@@ -381,12 +385,14 @@ Page {
                     }
 
                     if (player.source != "") {
+                        Haptics.play()
                         if (player.playbackState !== MediaPlayer.PlayingState) {
                             player.play()
                         } else {
                             player.pause()
                         }
                     } else if (recorder.fileName != "") {
+                        Haptics.play()
                         var absluteFilePath = recorder.filePath +
                                 "/" + recorder.fileName
                         player.source = Qt.resolvedUrl("file://" + absluteFilePath)
@@ -412,7 +418,7 @@ Page {
         }
 
         Rectangle {
-            visible: btnPlayMouseArea.pressed
+            visible: btnPlayMouseArea.pressed && btnPlay.opacity == 0.1
             width: btnPlay.width + units.gu(4)
             height: width
             anchors.centerIn: btnPlay
@@ -421,6 +427,7 @@ Page {
         }
 
         Glow {
+            opacity: btnPlay.opacity
             anchors.fill: btnPlay
             radius: 8
             samples: 17
