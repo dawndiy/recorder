@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-24 15:08+0000\n"
+"POT-Creation-Date: 2016-12-24 17:35+0000\n"
 "PO-Revision-Date: 2016-12-18 14:14+0000\n"
 "Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <fr@li.org>\n"
@@ -19,42 +19,57 @@ msgstr ""
 "X-Generator: Launchpad (build 18298)\n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:94
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:99
 msgid "Very Low Quality"
 msgstr "Très mauvaise qualité"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:96
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:101
 msgid "Low Quality"
 msgstr "Mauvaise qualité"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:98
+#. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:103
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:114
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:182
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:197
+#, fuzzy, qt-format
+msgid "%1 (default)"
+msgstr "par défaut"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:103
+#, fuzzy
 msgid "Normal Quality"
 msgstr "Qualité normale"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:100
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:105
 msgid "High Quality"
 msgstr "Bonne qualité"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:102
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:107
 msgid "Very High Quality"
 msgstr "Très bonne qualité"
 
-#. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:106
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:114
+#, fuzzy
 msgid "Constant Quality"
 msgstr "Qualité constante"
 
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:108
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:116
 msgid "Constant Bitrate"
 msgstr "Taux d'échantillonnage constant"
 
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:122
+#, fuzzy, qt-format
+msgid "%1 default"
+msgstr "par défaut"
+
 #. TRANSLATORS: This a reminder when some thing error.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:133
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:167
 msgid " (Reset your settings will fix this.)"
 msgstr " (Réinitialiser vos paramètres corrigera cela.)"
 
@@ -263,7 +278,7 @@ msgstr "Enregistrer"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:506
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:564
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:482
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:499
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -304,16 +319,6 @@ msgstr "Par taille (décroissante)"
 msgid "Do you want delete %1 ?"
 msgstr "Voulez-vous vraiment supprimer %1 ?"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SelectionPage.qml:107
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:259
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:293
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:324
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:389
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:422
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:455
-msgid "default"
-msgstr "par défaut"
-
 #. TRANSLATORS: The title of advanced settings page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:68
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:100
@@ -322,8 +327,8 @@ msgstr "Paramètres avancés"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:75
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:121
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:471
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:476
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:488
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:493
 msgid "Reset"
 msgstr "Réinitialiser"
 
@@ -349,41 +354,48 @@ msgid "Microphone volume"
 msgstr "Volume du microphone"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:245
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:253
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:254
 msgid "Record Quality"
 msgstr "Qualité de l'enregistrement"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:278
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:287
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:285
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:295
 msgid "Audio Codec"
 msgstr "Encodage audio"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:309
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:318
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:321
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:331
 msgid "File Container"
 msgstr "Conteneur de fichier"
 
 #. TRANSLATORS: The count of sound channel
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:340
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:350
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:353
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:364
 msgid "Channels"
 msgstr "Canaux"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:374
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:383
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:388
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:398
 msgid "Encoding Mode"
 msgstr "Mode d'encodage"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:407
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:416
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:422
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:432
 msgid "Encoding Quality"
 msgstr "Qualité d'encodage"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:440
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:449
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:456
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:466
 msgid "Bitrate"
 msgstr "Taux d'échantillonnage"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:472
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:489
 msgid "Do you want reset settings?"
 msgstr "Voulez-vous vraiment réinitialiser les paramètres ?"
+
+#~ msgid "default"
+#~ msgstr "par défaut"
+
+#, fuzzy
+#~ msgid "Normal Quality (default)"
+#~ msgstr "Qualité normale"

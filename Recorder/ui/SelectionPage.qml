@@ -27,10 +27,11 @@ Page {
     property alias title: pageHeader.title
     property var listData: []
     property var selectFunc: null
+    property var selectedValue: null
 
     function selectCodec(index, data) {
         settings.audioCodec = data
-        if (data === "default" || data === "audio/vorbis") {
+        if (data === "audio/vorbis") {
             settings.channels = 1
         }
     }
@@ -40,9 +41,6 @@ Page {
     }
 
     function selectChannel(index, data) {
-        if (data === "default") {
-            data = 1
-        }
         settings.channels = Number(data)
     }
 
@@ -90,24 +88,6 @@ Page {
         }
 
         model: listData
-        header: ListItem {
-            height: headerLayout.height + (divider.visible ? divider.height : 0)
-            highlightColor: "#246588"
-            onClicked: {
-                if (selectFunc) {
-                    // Do not translate
-                    selectFunc(-1, "default")
-                }
-                // selectionPage.pageStack.removePages(selectionPage)
-                pageLayout.removePage(selectionPage)
-            }
-
-            ListItemLayout {
-                id: headerLayout
-                title.text: i18n.tr("default")
-                title.color: "white"
-            }
-        }
 
         delegate: ListItem {
             height: layout.height + (divider.visible ? divider.height : 0)
@@ -115,7 +95,7 @@ Page {
 
             onClicked: {
                 if (selectFunc) {
-                    selectFunc(index, modelData)
+                    selectFunc(index, modelData.value)
                 }
                 // selectionPage.pageStack.removePages(selectionPage)
                 pageLayout.removePage(selectionPage)
@@ -123,8 +103,16 @@ Page {
 
             ListItemLayout {
                 id: layout
-                title.text: modelData
+                title.text: modelData.name
                 title.color: "white"
+
+                Icon {
+                    name: "ok"
+                    height: units.gu(2)
+                    width: height
+                    color: "white"
+                    visible: selectedValue == modelData.value
+                }
             }
         }
     }

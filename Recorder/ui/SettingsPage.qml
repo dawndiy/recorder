@@ -243,8 +243,9 @@ Page {
                                 Qt.resolvedUrl("SelectionPage.qml"),
                                 {
                                     title: i18n.tr("Record Quality"),
-                                    listData: recorder.qualityList,
-                                    state: "recordQuality"
+                                    listData: recorder.qualityData.list,
+                                    state: "recordQuality",
+                                    selectedValue: settings.encodingQuality === -1 ? 2 : settings.encodingQuality
                                 })
                 }
 
@@ -256,7 +257,7 @@ Page {
                     ProgressionSlot { color: "white" }
 
                     Label {
-                        text: settings.encodingQuality === -1 ? i18n.tr("default") : recorder.qualityList[settings.encodingQuality]
+                        text: recorder.getDataName(recorder.qualityData, settings.encodingQuality)
                         color: UbuntuColors.porcelain
                     }
                 }
@@ -271,13 +272,20 @@ Page {
                 highlightColor: "#246588"
 
                 onClicked: {
+
+                    var codec_list = []
+                    if (recorder.codecData.list) {
+                        codec_list = recorder.codecData.list
+                    }
+
                     pageLayout.addPageToCurrentColumn(
                                 settingsPage,
                                 Qt.resolvedUrl("SelectionPage.qml"),
                                 {
                                     title: i18n.tr("Audio Codec"),
-                                    listData: recorder.supportedAudioCodecs(),
-                                    state: "codec"
+                                    listData: codec_list,
+                                    state: "codec",
+                                    selectedValue: settings.audioCodec === "default" ? recorder.codecData.list[recorder.codecData.default_index].value : settings.audioCodec
                                 })
                 }
 
@@ -290,7 +298,7 @@ Page {
                     ProgressionSlot { color: "white" }
 
                     Label {
-                        text: settings.audioCodec === "default" ? i18n.tr("default") : settings.audioCodec
+                        text: recorder.getDataName(recorder.codecData, settings.audioCodec)
                         color: UbuntuColors.porcelain
                     }
                 }
@@ -302,13 +310,18 @@ Page {
                 highlightColor: "#246588"
 
                 onClicked: {
+                    var container_list = []
+                    if (recorder.containerData.list) {
+                        container_list = recorder.containerData.list
+                    }
                     pageLayout.addPageToCurrentColumn(
                                 settingsPage,
                                 Qt.resolvedUrl("SelectionPage.qml"),
                                 {
                                     title: i18n.tr("File Container"),
-                                    listData: recorder.supportedContainers(),
-                                    state: "container"
+                                    listData: container_list,
+                                    state: "container",
+                                    selectedValue: settings.fileContainer === "default" ? recorder.containerData.list[recorder.containerData.default_index].value : settings.fileContainer
                                 })
                 }
 
@@ -321,7 +334,7 @@ Page {
                     ProgressionSlot { color: "white" }
 
                     Label {
-                        text: settings.fileContainer === "default" ? i18n.tr("default") : settings.fileContainer
+                        text: recorder.getDataName(recorder.containerData, settings.fileContainer)
                         color: UbuntuColors.porcelain
                     }
                 }
@@ -338,8 +351,9 @@ Page {
                                 Qt.resolvedUrl("SelectionPage.qml"),
                                 {
                                     title: i18n.tr("Channels"),
-                                    listData: recorder.channelList,
-                                    state: "channel"
+                                    listData: recorder.channelData.list,
+                                    state: "channel",
+                                    selectedValue: settings.channels
                                 })
                 }
 
@@ -353,7 +367,7 @@ Page {
                     ProgressionSlot { color: "white" }
 
                     Label {
-                        text: settings.channels
+                        text: recorder.getDataName(recorder.channelData, settings.channels)
                         color: UbuntuColors.porcelain
                     }
                 }
@@ -372,8 +386,9 @@ Page {
                                 Qt.resolvedUrl("SelectionPage.qml"),
                                 {
                                     title: i18n.tr("Encoding Mode"),
-                                    listData: recorder.encodingModeList,
-                                    state: "encodingMode"
+                                    listData: recorder.encodingModeData.list,
+                                    state: "encodingMode",
+                                    selectedValue: settings.encodingMode === -1 ? 0 : settings.encodingMode
                                 })
                 }
 
@@ -386,7 +401,7 @@ Page {
                     ProgressionSlot { color: "white" }
 
                     Label {
-                        text: settings.encodingMode === -1 ? i18n.tr("default") : recorder.encodingModeList[settings.encodingMode]
+                        text: recorder.getDataName(recorder.encodingModeData, settings.encodingMode)
                         color: UbuntuColors.porcelain
                     }
                 }
@@ -405,8 +420,9 @@ Page {
                                 Qt.resolvedUrl("SelectionPage.qml"),
                                 {
                                     title: i18n.tr("Encoding Quality"),
-                                    listData: recorder.qualityList,
-                                    state: "encodingQuality"
+                                    listData: recorder.qualityData.list,
+                                    state: "encodingQuality",
+                                    selectedValue: settings.encodingQuality === -1 ? 2 : settings.encodingQuality
                                 })
                 }
 
@@ -419,7 +435,7 @@ Page {
                     ProgressionSlot { color: "white" }
 
                     Label {
-                        text: settings.encodingQuality === -1 ? i18n.tr("default") : recorder.qualityList[settings.encodingQuality]
+                        text: recorder.getDataName(recorder.qualityData, settings.encodingQuality)
                         color: UbuntuColors.porcelain
                     }
                 }
@@ -438,8 +454,9 @@ Page {
                                 Qt.resolvedUrl("SelectionPage.qml"),
                                 {
                                     title: i18n.tr("Bitrate"),
-                                    listData: recorder.bitrateList,
-                                    state: "bitrate"
+                                    listData: recorder.bitrateData.list,
+                                    state: "bitrate",
+                                    selectedValue: settings.bitrate === -1 ? 32000 : settings.bitrate
                                 })
                 }
 
@@ -452,7 +469,7 @@ Page {
                     ProgressionSlot { color: "white" }
 
                     Label {
-                        text: settings.bitrate === -1 ? i18n.tr("default") : recorder.bitrateList[settings.bitrate]
+                        text: recorder.getDataName(recorder.bitrateData, settings.bitrate)
                         color: UbuntuColors.porcelain
                     }
                 }

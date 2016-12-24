@@ -88,32 +88,66 @@ MainView {
     Recorder {
         id: recorder
 
-        readonly property var channelList: [1, 2]
-        readonly property var qualityList: [
-            // TRANSLATORS: This is a quality option in Record Quality.
-            i18n.tr("Very Low Quality"),
-            // TRANSLATORS: This is a quality option in Record Quality.
-            i18n.tr("Low Quality"),
-            // TRANSLATORS: This is a quality option in Record Quality.
-            i18n.tr("Normal Quality"),
-            // TRANSLATORS: This is a quality option in Record Quality.
-            i18n.tr("High Quality"),
-            // TRANSLATORS: This is a quality option in Record Quality.
-            i18n.tr("Very High Quality")
-        ]
-        readonly property var encodingModeList: [
-            // TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
-            i18n.tr("Constant Quality"),
-            // TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
-            i18n.tr("Constant Bitrate")
-        ]
-        readonly property var bitrateList: [
-            32000,
-            64000,
-            128000,
-            192000,
-            256000
-        ]
+        readonly property var channelData: {
+            'default_index': 0,
+            'list': [ { name: '1', value: 1 }, { name: '2', value: 2 } ]
+        }
+        readonly property var qualityData: {
+            'default_index': 2,
+            'list': [
+                // TRANSLATORS: This is a quality option in Record Quality.
+                { name: i18n.tr("Very Low Quality"), value: 0},
+                // TRANSLATORS: This is a quality option in Record Quality.
+                { name: i18n.tr("Low Quality"), value: 1},
+                // TRANSLATORS: This is a quality option in Record Quality.
+                { name: i18n.tr("%1 (default)").arg(i18n.tr("Normal Quality")), value: 2},
+                // TRANSLATORS: This is a quality option in Record Quality.
+                { name: i18n.tr("High Quality"), value: 3},
+                // TRANSLATORS: This is a quality option in Record Quality.
+                { name: i18n.tr("Very High Quality"), value: 4}
+            ]
+        }
+        readonly property var encodingModeData: {
+            'default_index': 0,
+            'list': [
+                // TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
+                { name: i18n.tr("%1 (default)").arg(i18n.tr("Constant Quality")), value: 0},
+                // TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
+                { name: i18n.tr("Constant Bitrate"), value: 1}
+            ]
+        }
+        readonly property var bitrateData: {
+            'default_index': 0,
+            'list': [
+                { name: i18n.tr("%1 default").arg('32000'), value: 32000 },
+                { name: '64000', value: 64000 },
+                { name: '128000', value: 128000 },
+                { name: '192000', value: 192000 },
+                { name: '256000', value: 256000 }
+            ]
+        }
+        property var codecData: ({})
+        property var containerData: ({})
+
+        function getDataName(data, value) {
+            var name = ''
+            if (!data.list) {
+                return name
+            }
+
+            if (value === -1 || value === "default") {
+                return data.list[data.default_index].name
+            }
+
+            for (var i = 0; i < data.list.length; i++) {
+                var item = data.list[i]
+                if (item.value == value) {
+                    name = item.name
+                    break
+                }
+            }
+            return name
+        }
 
         audioCodec: settings.audioCodec
         fileContainer: settings.fileContainer
@@ -132,6 +166,42 @@ MainView {
             // TRANSLATORS: This a reminder when some thing error.
             var tip = i18n.tr(" (Reset your settings will fix this.)")
             notification(errorMessage + tip, 5)
+        }
+
+        Component.onCompleted: {
+
+            // detect audio codec
+            var codec_list = recorder.supportedAudioCodecs()
+            if (codec_list.length > 0) {
+                recorder.codecData.list = []
+            }
+            for (var i = 0; i < codec_list.length; i++) {
+                var codec = codec_list[i]
+                var codec_item = { name: codec, value: codec}
+                if (codec === "audio/vorbis") {
+                    codec_item.name = i18n.tr("%1 (default)").arg(codec_item.name)
+                    recorder.codecData.default_index = i
+                }
+                recorder.codecData.list.push(codec_item)
+            }
+
+            // detect file container
+            var container_list = recorder.supportedContainers()
+            if (container_list.length > 0) {
+                recorder.containerData.list = []
+            }
+            for (var i = 0; i < container_list.length; i++) {
+                var container = container_list[i]
+                var container_item = { name: container, value: container }
+                if (container === "ogg") {
+                    container_item.name = i18n.tr("%1 (default)").arg(container_item.name)
+                    recorder.containerData.default_index = i
+                }
+                recorder.containerData.list.push(container_item)
+            }
+
+            // console.log("---", JSON.stringify(recorder.codecData))
+            // console.log("---", JSON.stringify(recorder.containerData))
         }
     }
 
