@@ -214,6 +214,7 @@ Page {
                     // Resources
                     creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Bugs"), link: "https://github.com/dawndiy/recorder/issues" })
                     creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Contact"), link: "mailto:dawndiy.dev@gmail.com" })
+                    creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Translations"), link: "https://translations.launchpad.net/recorder" })
 
                     // Icon
                     creditsModel.append({ category: i18n.tr("Icon"), name: "DawnDIY", link: "https://github.com/dawndiy" })

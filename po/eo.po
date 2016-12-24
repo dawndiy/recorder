@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-17 21:37+0000\n"
+"POT-Creation-Date: 2016-12-24 15:08+0000\n"
 "PO-Revision-Date: 2016-12-17 19:08+0000\n"
 "Last-Translator: Sof <Unknown>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -105,6 +105,7 @@ msgstr "Donacu"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:215
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:216
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:217
 msgid "Resources"
 msgstr "Rimedoj"
 
@@ -116,11 +117,15 @@ msgstr "Eraroj"
 msgid "Contact"
 msgstr "Kontakto"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:219
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:217
+msgid "Translations"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:220
 msgid "Icon"
 msgstr "Ikono"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:222
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:223
 msgid "Developers"
 msgstr "Programistoj"
 

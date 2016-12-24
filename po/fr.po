@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-17 21:37+0000\n"
+"POT-Creation-Date: 2016-12-24 15:08+0000\n"
 "PO-Revision-Date: 2016-12-18 14:14+0000\n"
 "Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <fr@li.org>\n"
@@ -105,6 +105,7 @@ msgstr "Faire un don"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:215
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:216
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:217
 msgid "Resources"
 msgstr "Code source"
 
@@ -116,11 +117,15 @@ msgstr "Anomalies"
 msgid "Contact"
 msgstr "Contact"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:219
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:217
+msgid "Translations"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:220
 msgid "Icon"
 msgstr "Icône"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:222
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:223
 msgid "Developers"
 msgstr "Développeurs"
 
