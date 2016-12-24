@@ -119,7 +119,7 @@ MainView {
         readonly property var bitrateData: {
             'default_index': 0,
             'list': [
-                { name: i18n.tr("%1 default").arg('32000'), value: 32000 },
+                { name: i18n.tr("%1 (default)").arg('32000'), value: 32000 },
                 { name: '64000', value: 64000 },
                 { name: '128000', value: 128000 },
                 { name: '192000', value: 192000 },

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-24 17:35+0000\n"
+"POT-Creation-Date: 2016-12-24 18:01+0000\n"
 "PO-Revision-Date: 2016-12-18 14:14+0000\n"
 "Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <fr@li.org>\n"
@@ -32,6 +32,7 @@ msgstr "Mauvaise qualité"
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:103
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:114
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:122
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:182
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:197
 #, fuzzy, qt-format
@@ -62,11 +63,6 @@ msgstr "Qualité constante"
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:116
 msgid "Constant Bitrate"
 msgstr "Taux d'échantillonnage constant"
-
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:122
-#, fuzzy, qt-format
-msgid "%1 default"
-msgstr "par défaut"
 
 #. TRANSLATORS: This a reminder when some thing error.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:167
@@ -161,8 +157,8 @@ msgstr "Enregistrements"
 msgid "Settings"
 msgstr "Paramètres"
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:327
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:380
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:329
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:384
 #, qt-format
 msgid "Record is saved in %1"
 msgstr "L'enregistrement a été stocké dans %1"
@@ -392,6 +388,10 @@ msgstr "Taux d'échantillonnage"
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:489
 msgid "Do you want reset settings?"
 msgstr "Voulez-vous vraiment réinitialiser les paramètres ?"
+
+#, fuzzy
+#~ msgid "%1 default"
+#~ msgstr "par défaut"
 
 #~ msgid "default"
 #~ msgstr "par défaut"

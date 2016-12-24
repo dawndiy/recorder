@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-24 17:35+0000\n"
+"POT-Creation-Date: 2016-12-24 18:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,7 @@ msgstr ""
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:103
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:114
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:122
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:182
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:197
 #, qt-format
@@ -58,11 +59,6 @@ msgstr ""
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:116
 msgid "Constant Bitrate"
-msgstr ""
-
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:122
-#, qt-format
-msgid "%1 default"
 msgstr ""
 
 #. TRANSLATORS: This a reminder when some thing error.
@@ -156,8 +152,8 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:327
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:380
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:329
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:384
 #, qt-format
 msgid "Record is saved in %1"
 msgstr ""
