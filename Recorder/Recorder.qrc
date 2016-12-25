@@ -18,5 +18,9 @@
         <file>image/alipay_qrcode.png</file>
         <file>component/SnackBar.qml</file>
         <file>ui/IntroPage.qml</file>
+        <file>image/intro_0.png</file>
+        <file>image/intro_1.png</file>
+        <file>image/intro_2.png</file>
+        <file>image/intro_3.png</file>
     </qresource>
 </RCC>

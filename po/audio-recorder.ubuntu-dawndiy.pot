@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-24 18:01+0000\n"
+"POT-Creation-Date: 2016-12-25 18:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,51 +18,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:99
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:100
 msgid "Very Low Quality"
 msgstr ""
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:101
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:102
 msgid "Low Quality"
 msgstr ""
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:103
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:114
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:122
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:182
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:197
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:104
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:115
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:123
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:183
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:198
 #, qt-format
 msgid "%1 (default)"
 msgstr ""
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:103
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:104
 msgid "Normal Quality"
 msgstr ""
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:105
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:106
 msgid "High Quality"
 msgstr ""
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:107
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:108
 msgid "Very High Quality"
 msgstr ""
 
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:114
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:115
 msgid "Constant Quality"
 msgstr ""
 
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:116
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:117
 msgid "Constant Bitrate"
 msgstr ""
 
 #. TRANSLATORS: This a reminder when some thing error.
-#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:167
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:168
 msgid " (Reset your settings will fix this.)"
 msgstr ""
 
@@ -156,6 +156,47 @@ msgstr ""
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:384
 #, qt-format
 msgid "Record is saved in %1"
+msgstr ""
+
+#. TRANSLATORS: The text of the button to skip the introduction page.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:40
+msgid "Skip"
+msgstr ""
+
+#. TRANSLATORS: The title of introduction page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:54
+msgid "Easy to recording."
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:55
+msgid ""
+"1. Record button to start recording.\n"
+"2. Play button to play recording.\n"
+"3. Stop button to stop recording or play."
+msgstr ""
+
+#. TRANSLATORS: The title of introduction page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:59
+msgid "Rich set of options"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:60
+msgid ""
+"1. Reset action to restore the default settings.\n"
+"2. Expand more advanced settings."
+msgstr ""
+
+#. TRANSLATORS: The title of introduction page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:64
+msgid "Easy-to-use recorded file list"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:65
+msgid ""
+"1. Rename recorded file.\n"
+"2. Check out recording informations.\n"
+"3. Delete recorded file.\n"
+"4. Click item to play recording directly."
 msgstr ""
 
 #. TRANSLATORS: Title of the export files page

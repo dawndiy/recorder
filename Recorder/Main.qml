@@ -52,11 +52,12 @@ MainView {
     }
 
     function showIntro() {
+        // debug
         // settings.version = ""
-        // if (settings.version != root.appVersion) {
-        //    pageLayout.forceSinglePage = true
-        //    pageLayout.addPageToCurrentColumn(homePage, introPage)
-        //}
+        if (settings.version != root.appVersion) {
+            pageLayout.forceSinglePage = true
+            pageLayout.addPageToCurrentColumn(homePage, introPage)
+        }
     }
 
     Component.onCompleted: {
