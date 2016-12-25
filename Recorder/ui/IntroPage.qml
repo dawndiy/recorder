@@ -51,7 +51,7 @@ Page {
         function init() {
             append({
                 // TRANSLATORS: The title of introduction page
-                "title": i18n.tr("Easy to recording."),
+                "title": i18n.tr("Easy to recording"),
                 "body": i18n.tr("1. Record button to start recording.\n2. Play button to play recording.\n3. Stop button to stop recording or play.")
             })
             append({
@@ -135,7 +135,8 @@ Page {
                     horizontalCenter: parent.horizontalCenter
                 }
                 color: UbuntuColors.green
-                text: "Start"
+                // TRANSLATORS: Start App
+                text: i18n.tr("Start")
                 onClicked: startApp()
             }
         }

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-25 18:19+0000\n"
+"POT-Creation-Date: 2016-12-25 18:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,7 +165,7 @@ msgstr ""
 
 #. TRANSLATORS: The title of introduction page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:54
-msgid "Easy to recording."
+msgid "Easy to recording"
 msgstr ""
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:55
@@ -197,6 +197,11 @@ msgid ""
 "2. Check out recording informations.\n"
 "3. Delete recorded file.\n"
 "4. Click item to play recording directly."
+msgstr ""
+
+#. TRANSLATORS: Start App
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:139
+msgid "Start"
 msgstr ""
 
 #. TRANSLATORS: Title of the export files page

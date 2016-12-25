@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-25 18:19+0000\n"
-"PO-Revision-Date: 2016-12-25 02:02+0800\n"
+"POT-Creation-Date: 2016-12-25 18:37+0000\n"
+"PO-Revision-Date: 2016-12-26 02:37+0800\n"
 "Last-Translator: Cheng Lu <dawndiy.dev@gmail.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
 "Language: \n"
@@ -165,12 +165,12 @@ msgstr "录音已保存在 %1"
 #. TRANSLATORS: The text of the button to skip the introduction page.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:40
 msgid "Skip"
-msgstr ""
+msgstr "跳过"
 
 #. TRANSLATORS: The title of introduction page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:54
-msgid "Easy to recording."
-msgstr ""
+msgid "Easy to recording"
+msgstr "简单的录音"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:55
 msgid ""
@@ -178,22 +178,27 @@ msgid ""
 "2. Play button to play recording.\n"
 "3. Stop button to stop recording or play."
 msgstr ""
+"1. 录音按钮来开始录音。\n"
+"2. 播放按钮来播放录音。\n"
+"3. 停止按钮来停止录音或播放。"
 
 #. TRANSLATORS: The title of introduction page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:59
 msgid "Rich set of options"
-msgstr ""
+msgstr "丰富的设置选项"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:60
 msgid ""
 "1. Reset action to restore the default settings.\n"
 "2. Expand more advanced settings."
 msgstr ""
+"1. 重置操作来恢复默认设置。\n"
+"2. 展开更多高级设置。"
 
 #. TRANSLATORS: The title of introduction page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:64
 msgid "Easy-to-use recorded file list"
-msgstr ""
+msgstr "易用的录音列表"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:65
 msgid ""
@@ -202,6 +207,15 @@ msgid ""
 "3. Delete recorded file.\n"
 "4. Click item to play recording directly."
 msgstr ""
+"1. 重命名录音文件。\n"
+"2. 查看录音信息。\n"
+"3. 删除录音文件。\n"
+"4. 点击条目直接播放。"
+
+#. TRANSLATORS: Start App
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:139
+msgid "Start"
+msgstr "开始"
 
 #. TRANSLATORS: Title of the export files page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:70
