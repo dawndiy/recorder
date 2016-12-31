@@ -1,0 +1,444 @@
+# Italian translation for recorder
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the recorder package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: recorder\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-12-25 18:37+0000\n"
+"PO-Revision-Date: 2016-12-27 21:08+0000\n"
+"Last-Translator: Gabriele <Unknown>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-12-28 05:03+0000\n"
+"X-Generator: Launchpad (build 18298)\n"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:100
+msgid "Very Low Quality"
+msgstr "Qualità molto bassa"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:102
+msgid "Low Quality"
+msgstr "Qualità bassa"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+#. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:104
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:115
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:123
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:183
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:198
+#, qt-format
+msgid "%1 (default)"
+msgstr "%1 (predefinito)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:104
+msgid "Normal Quality"
+msgstr "Qualità normale"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:106
+msgid "High Quality"
+msgstr "Qualità alta"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:108
+msgid "Very High Quality"
+msgstr "Qualità molto alta"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:115
+msgid "Constant Quality"
+msgstr "Qualità costante"
+
+#. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:117
+msgid "Constant Bitrate"
+msgstr "Bitrate costante"
+
+#. TRANSLATORS: This a reminder when some thing error.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:168
+msgid " (Reset your settings will fix this.)"
+msgstr " (ripristinare le impostazione lo risolverà)"
+
+#. TRANSLATORS: Title of About page.
+#. TRANSLATORS: A section name of top Sections.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:30
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:51
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:60
+msgid "About"
+msgstr "Informazioni"
+
+#. TRANSLATORS: A section name of top Sections.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:53
+msgid "Support"
+msgstr "Supporto"
+
+#. TRANSLATORS: Recorder is the name of this App.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:132
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:31
+#: /home/dawndiy/workspace/ubuntu-touch/build-recorder-Ubuntu_Device2_GCC_armhf_ubuntu_sdk_15_04_device_armhf_15_04-Debug/Recorder/Recorder.desktop.h:1
+msgid "Recorder"
+msgstr "Recorder"
+
+#. TRANSLATORS: Recorder version number e.g Version 1.0.0
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:139
+#, qt-format
+msgid "Version %1"
+msgstr "Versione %1"
+
+#. TRANSLATORS: The summary of this App.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:149
+msgid "Audio Recorder for Ubuntu."
+msgstr "Registratore audio per Ubuntu"
+
+#. TRANSLATORS: release license
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:174
+msgid ""
+"Released under the terms of the <a "
+"href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\">GNU GPL "
+"v3</a>"
+msgstr ""
+"Rilasciato sotto i termini della <a "
+"href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\"> GNU GPL v3 "
+"</a>"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:184
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/DonatePage.qml:30
+msgid "Donate"
+msgstr "Dona"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:215
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:216
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:217
+msgid "Resources"
+msgstr "Risorse"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:215
+msgid "Bugs"
+msgstr "Errori"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:216
+msgid "Contact"
+msgstr "Contatto"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:217
+msgid "Translations"
+msgstr "Traduzioni"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:220
+msgid "Icon"
+msgstr "Icona"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:223
+msgid "Developers"
+msgstr "Sviluppatori"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/DonatePage.qml:173
+msgid "Please donate if you like this App. :)"
+msgstr "Per cortesia donate se vi piace questa App :)"
+
+#. TRANSLATORS: This is a tab action name. This action button will enter a page show recorded files.
+#. TRANSLATORS: Title of record list page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:41
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:68
+msgid "Records"
+msgstr "Registrazioni"
+
+#. TRANSLATORS: The title of settings page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:49
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:53
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:329
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:384
+#, qt-format
+msgid "Record is saved in %1"
+msgstr "La registrazione è salvata in %1"
+
+#. TRANSLATORS: The text of the button to skip the introduction page.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:40
+msgid "Skip"
+msgstr "Salta"
+
+#. TRANSLATORS: The title of introduction page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:54
+msgid "Easy to recording"
+msgstr "Facile registrare"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:55
+msgid ""
+"1. Record button to start recording.\n"
+"2. Play button to play recording.\n"
+"3. Stop button to stop recording or play."
+msgstr ""
+"1. Bottone di registrazione per avviare la registrazione.\n"
+"2. Bottone di avvio per ascoltare la registrazione.\n"
+"3. Bottone di stop per fermare la registrazione o l'ascolto."
+
+#. TRANSLATORS: The title of introduction page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:59
+msgid "Rich set of options"
+msgstr "Ricca selezione di settaggi"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:60
+msgid ""
+"1. Reset action to restore the default settings.\n"
+"2. Expand more advanced settings."
+msgstr ""
+"1. Azione di reset per ripristinare le impostazioni predefinite.\n"
+"2. Espandere impostazioni più avanzate."
+
+#. TRANSLATORS: The title of introduction page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:64
+msgid "Easy-to-use recorded file list"
+msgstr "Lista delle registrazioni facile da usare"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:65
+msgid ""
+"1. Rename recorded file.\n"
+"2. Check out recording informations.\n"
+"3. Delete recorded file.\n"
+"4. Click item to play recording directly."
+msgstr ""
+"1. Rinomina il file di registrazione.\n"
+"2. Mostra le informazioni di registrazione.\n"
+"3. Cancella il file di registrazione.\n"
+"4. Clicca sull'oggetto per avviare direttamente la riproduzione"
+
+#. TRANSLATORS: Start App
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:139
+msgid "Start"
+msgstr "Avvia"
+
+#. TRANSLATORS: Title of the export files page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:70
+msgid "Export Records"
+msgstr "Esporta le registrazioni"
+
+#. TRANSLATORS: Go back previous page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:81
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:148
+msgid "Back"
+msgstr "Indietro"
+
+#. TRANSLATORS: Close export file page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:89
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:463
+msgid "Close"
+msgstr "Chiudi"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:105
+msgid "Search"
+msgstr "Cerca"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:110
+msgid "Sorting"
+msgstr "Ordinamento"
+
+#. TRANSLATORS: OK to comfirm export files.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:125
+msgid "OK"
+msgstr "OK"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:159
+msgid "Search..."
+msgstr "Cerca..."
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:238
+msgid "No records"
+msgstr "Nessuna registrazione"
+
+#. TRANSLATORS: An action name for delete a record file.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:263
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:554
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:558
+msgid "Delete"
+msgstr "Cancella"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:272
+#, qt-format
+msgid "%1 has been deleted."
+msgstr "%1 è stato cancellato."
+
+#. TRANSLATORS: An action name for rename the file name.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:283
+msgid "Rename"
+msgstr "Rinomina"
+
+#. TRANSLATORS: An action name for the record file info.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:297
+msgid "Info"
+msgstr "Informazioni"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:429
+msgid "Record Information"
+msgstr "Informazioni sulla registrazione"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:433
+#, qt-format
+msgid "<b>Name</b>: %1"
+msgstr "<b>Nome</b>: %1"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:437
+#, qt-format
+msgid "<b>Type</b>: %1"
+msgstr "<b>Tipo</b>: %1"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:441
+#, qt-format
+msgid "<b>Size</b>: %1 (%2 B)"
+msgstr "<b>Dimensione</b>: %1 (%2 B)"
+
+#. TRANSLATORS: The location where the record file is stored.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:447
+#, qt-format
+msgid "<b>Location</b>: %1"
+msgstr "<b>Posizione</b>: %1"
+
+#. TRANSLATORS: The last accessed time.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:453
+#, qt-format
+msgid "<b>Accessed</b>: %1"
+msgstr "<b>Accessibile</b>: %1"
+
+#. TRANSLATORS: The last modified time.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:459
+#, qt-format
+msgid "<b>Modified</b>: %1"
+msgstr "<b>Modificata</b>: %1"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:486
+msgid "Rename Record File"
+msgstr "Rinomina la registrazione"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:487
+msgid "Please enter a new file name."
+msgstr "Pre favore inserisci il nuovo nome del file"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:495
+msgid "Save"
+msgstr "Salva"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:506
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:564
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:499
+msgid "Cancel"
+msgstr "Annulla"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:516
+msgid "Sort by"
+msgstr "Ordina per"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:526
+msgid "Unsorted (default)"
+msgstr "Non ordinate (default)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:527
+msgid "File name (ascending)"
+msgstr "Nome del file (ascendente)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:528
+msgid "File name (descending)"
+msgstr "Nome del file (discendente)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:529
+msgid "Time modified (newest first)"
+msgstr "Data di modifica (prima i recenti)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:530
+msgid "Time modified (oldest first)"
+msgstr "Data di modifica (prima i più vecchi)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:531
+msgid "Size (ascending)"
+msgstr "Dimensione (ascedente)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:532
+msgid "Size (descending)"
+msgstr "Dimensione (discendente)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:555
+#, qt-format
+msgid "Do you want delete %1 ?"
+msgstr "Vuoi cancellare %1 ?"
+
+#. TRANSLATORS: The title of advanced settings page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:68
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:100
+msgid "Advanced Settings"
+msgstr "Impostazioni avanzate"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:75
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:121
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:488
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:493
+msgid "Reset"
+msgstr "Ripristina"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:81
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:127
+msgid "All settings have been reset."
+msgstr "Tutti i settaggi sono stati ripristinati"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:114
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:157
+msgid "Keep screen on"
+msgstr "Mantieni lo schermo acceso"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:174
+msgid "Show sound wave"
+msgstr "Mostra l'onda sonora"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:191
+msgid "Microphone volume"
+msgstr "Volume del microfono"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:245
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:254
+msgid "Record Quality"
+msgstr "Qualità della registrazione"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:285
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:295
+msgid "Audio Codec"
+msgstr "Codec audio"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:321
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:331
+msgid "File Container"
+msgstr "Container dei file"
+
+#. TRANSLATORS: The count of sound channel
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:353
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:364
+msgid "Channels"
+msgstr "Canali"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:388
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:398
+msgid "Encoding Mode"
+msgstr "Modalità di codifica"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:422
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:432
+msgid "Encoding Quality"
+msgstr "Qualità della codifica"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:456
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:466
+msgid "Bitrate"
+msgstr "Bitrate"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:489
+msgid "Do you want reset settings?"
+msgstr "Vuoi ripristinare i settaggi ?"
