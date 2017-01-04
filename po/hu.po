@@ -1,0 +1,443 @@
+# Hungarian translation for recorder
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the recorder package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: recorder\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-12-25 18:37+0000\n"
+"PO-Revision-Date: 2017-01-01 13:43+0000\n"
+"Last-Translator: Richard Somlói <ricsipontaz@gmail.com>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-01-02 05:31+0000\n"
+"X-Generator: Launchpad (build 18298)\n"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:100
+msgid "Very Low Quality"
+msgstr "Nagyon alacsony minőség"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:102
+msgid "Low Quality"
+msgstr "Alacsony minőség"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+#. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:104
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:115
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:123
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:183
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:198
+#, qt-format
+msgid "%1 (default)"
+msgstr "%1 (alapértelmezés)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:104
+msgid "Normal Quality"
+msgstr "Normál minőség"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:106
+msgid "High Quality"
+msgstr "Magas minőség"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:108
+msgid "Very High Quality"
+msgstr "Nagyon magas minőség"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:115
+msgid "Constant Quality"
+msgstr "Állandó minőség"
+
+#. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:117
+msgid "Constant Bitrate"
+msgstr "Állandó bitsebesség"
+
+#. TRANSLATORS: This a reminder when some thing error.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:168
+msgid " (Reset your settings will fix this.)"
+msgstr " (A beállítások visszaállítása alapértelmezettre megoldhatja ezt.)"
+
+#. TRANSLATORS: Title of About page.
+#. TRANSLATORS: A section name of top Sections.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:30
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:51
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:60
+msgid "About"
+msgstr "Névjegy"
+
+#. TRANSLATORS: A section name of top Sections.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:53
+msgid "Support"
+msgstr "Támogatás"
+
+#. TRANSLATORS: Recorder is the name of this App.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:132
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:31
+#: /home/dawndiy/workspace/ubuntu-touch/build-recorder-Ubuntu_Device2_GCC_armhf_ubuntu_sdk_15_04_device_armhf_15_04-Debug/Recorder/Recorder.desktop.h:1
+msgid "Recorder"
+msgstr "Rögzítő"
+
+#. TRANSLATORS: Recorder version number e.g Version 1.0.0
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:139
+#, qt-format
+msgid "Version %1"
+msgstr "Verzió: %1"
+
+#. TRANSLATORS: The summary of this App.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:149
+msgid "Audio Recorder for Ubuntu."
+msgstr "Audiofelvevő Ubuntuhoz"
+
+#. TRANSLATORS: release license
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:174
+msgid ""
+"Released under the terms of the <a "
+"href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\">GNU GPL "
+"v3</a>"
+msgstr ""
+"A <a href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\">GNU "
+"GPL v3</a> licenc feltételei alatt kiadva"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:184
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/DonatePage.qml:30
+msgid "Donate"
+msgstr "Adományozás"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:215
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:216
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:217
+msgid "Resources"
+msgstr "Források"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:215
+msgid "Bugs"
+msgstr "Hibák"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:216
+msgid "Contact"
+msgstr "Kapcsolat"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:217
+msgid "Translations"
+msgstr "Fordítások"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:220
+msgid "Icon"
+msgstr "Ikon"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:223
+msgid "Developers"
+msgstr "Fejlesztők"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/DonatePage.qml:173
+msgid "Please donate if you like this App. :)"
+msgstr "Kérem támogasson, ha tetszik az alkalmazás. :)"
+
+#. TRANSLATORS: This is a tab action name. This action button will enter a page show recorded files.
+#. TRANSLATORS: Title of record list page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:41
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:68
+msgid "Records"
+msgstr "Felvételek"
+
+#. TRANSLATORS: The title of settings page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:49
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:53
+msgid "Settings"
+msgstr "Beállítások"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:329
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:384
+#, qt-format
+msgid "Record is saved in %1"
+msgstr "A felvétel elmentve: %1"
+
+#. TRANSLATORS: The text of the button to skip the introduction page.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:40
+msgid "Skip"
+msgstr "Kihagyás"
+
+#. TRANSLATORS: The title of introduction page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:54
+msgid "Easy to recording"
+msgstr "Egyszerű felvétel"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:55
+msgid ""
+"1. Record button to start recording.\n"
+"2. Play button to play recording.\n"
+"3. Stop button to stop recording or play."
+msgstr ""
+"1. A felvétel gombbal indíthatja a felvételt\n"
+"2. A lejátszás gombbal indíthatja a felvétel lejátszását\n"
+"3. A megállítás gomb megállítja a felvételt vagy a lejátszást"
+
+#. TRANSLATORS: The title of introduction page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:59
+msgid "Rich set of options"
+msgstr "Számos beállítási lehetőség"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:60
+msgid ""
+"1. Reset action to restore the default settings.\n"
+"2. Expand more advanced settings."
+msgstr ""
+"1. Beállítások visszaállítása az alapértelmezett értékekre\n"
+"2. Haladó beállítások"
+
+#. TRANSLATORS: The title of introduction page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:64
+msgid "Easy-to-use recorded file list"
+msgstr "Könnyen használható felvétel lista"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:65
+msgid ""
+"1. Rename recorded file.\n"
+"2. Check out recording informations.\n"
+"3. Delete recorded file.\n"
+"4. Click item to play recording directly."
+msgstr ""
+"1. Felvétel átnevezése\n"
+"2. Felvételinformációk\n"
+"3. Felvétel törlése\n"
+"4. Felvétel közvetlen lejátszása"
+
+#. TRANSLATORS: Start App
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:139
+msgid "Start"
+msgstr "Indítás"
+
+#. TRANSLATORS: Title of the export files page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:70
+msgid "Export Records"
+msgstr "Felvételek exportálása"
+
+#. TRANSLATORS: Go back previous page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:81
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:148
+msgid "Back"
+msgstr "Vissza"
+
+#. TRANSLATORS: Close export file page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:89
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:463
+msgid "Close"
+msgstr "Bezárás"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:105
+msgid "Search"
+msgstr "Keresés"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:110
+msgid "Sorting"
+msgstr "Rendezés"
+
+#. TRANSLATORS: OK to comfirm export files.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:125
+msgid "OK"
+msgstr "OK"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:159
+msgid "Search..."
+msgstr "Keresés…"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:238
+msgid "No records"
+msgstr "Nincs felvétel"
+
+#. TRANSLATORS: An action name for delete a record file.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:263
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:554
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:558
+msgid "Delete"
+msgstr "Törlés"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:272
+#, qt-format
+msgid "%1 has been deleted."
+msgstr "%1 törölve"
+
+#. TRANSLATORS: An action name for rename the file name.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:283
+msgid "Rename"
+msgstr "Átnevezés"
+
+#. TRANSLATORS: An action name for the record file info.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:297
+msgid "Info"
+msgstr "Információ"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:429
+msgid "Record Information"
+msgstr "Felvételinformáció"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:433
+#, qt-format
+msgid "<b>Name</b>: %1"
+msgstr "<b>Név</b>: %1"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:437
+#, qt-format
+msgid "<b>Type</b>: %1"
+msgstr "<b>Típus</b>: %1"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:441
+#, qt-format
+msgid "<b>Size</b>: %1 (%2 B)"
+msgstr "<b>Méret</b>: %1 (%2 B)"
+
+#. TRANSLATORS: The location where the record file is stored.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:447
+#, qt-format
+msgid "<b>Location</b>: %1"
+msgstr "<b>Hely</b>: %1"
+
+#. TRANSLATORS: The last accessed time.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:453
+#, qt-format
+msgid "<b>Accessed</b>: %1"
+msgstr "<b>Elérés</b>: %1"
+
+#. TRANSLATORS: The last modified time.
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:459
+#, qt-format
+msgid "<b>Modified</b>: %1"
+msgstr "<b>Módosítás</b>: %1"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:486
+msgid "Rename Record File"
+msgstr "Felvétel átnevezése"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:487
+msgid "Please enter a new file name."
+msgstr "Adja meg az új nevet"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:495
+msgid "Save"
+msgstr "Mentés"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:506
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:564
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:499
+msgid "Cancel"
+msgstr "Mégse"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:516
+msgid "Sort by"
+msgstr "Rendezési feltétel"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:526
+msgid "Unsorted (default)"
+msgstr "Nincs (alapértelmezett)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:527
+msgid "File name (ascending)"
+msgstr "ABC sorrend"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:528
+msgid "File name (descending)"
+msgstr "ABC sorrend (visszafelé)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:529
+msgid "Time modified (newest first)"
+msgstr "Módosítás ideje (újak először)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:530
+msgid "Time modified (oldest first)"
+msgstr "Módosítás ideje (régiek először)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:531
+msgid "Size (ascending)"
+msgstr "Méret (növekvő)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:532
+msgid "Size (descending)"
+msgstr "Méret (csökkenő)"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:555
+#, qt-format
+msgid "Do you want delete %1 ?"
+msgstr "Törölni szeretné ezt: %1 ?"
+
+#. TRANSLATORS: The title of advanced settings page
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:68
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:100
+msgid "Advanced Settings"
+msgstr "Haladó beállítások"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:75
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:121
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:488
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:493
+msgid "Reset"
+msgstr "Visszaállítás"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:81
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:127
+msgid "All settings have been reset."
+msgstr "Minden beállítás visszaállítva az alapértelmezett értékre."
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:114
+msgid "General Settings"
+msgstr "Általános beállítások"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:157
+msgid "Keep screen on"
+msgstr "Kijelző ébrentartása"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:174
+msgid "Show sound wave"
+msgstr "Hanghullám megjelenítése"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:191
+msgid "Microphone volume"
+msgstr "Mikrofon hangereje"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:245
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:254
+msgid "Record Quality"
+msgstr "Felvétel minősége"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:285
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:295
+msgid "Audio Codec"
+msgstr "Hangkodek"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:321
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:331
+msgid "File Container"
+msgstr "Fájlkonténer"
+
+#. TRANSLATORS: The count of sound channel
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:353
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:364
+msgid "Channels"
+msgstr "Csatornák"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:388
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:398
+msgid "Encoding Mode"
+msgstr "Kódolási mód"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:422
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:432
+msgid "Encoding Quality"
+msgstr "Kódolási minőség"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:456
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:466
+msgid "Bitrate"
+msgstr "Bitsebesség"
+
+#: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:489
+msgid "Do you want reset settings?"
+msgstr "Szeretné visszaállítani a beállításokat?"
