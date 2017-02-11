@@ -10,7 +10,7 @@
             "content-hub": "Recorder/Recorder-content.json"
         }
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "maintainer": "DawnDIY <dawndiy.dev@gmail.com>",
     "framework": "ubuntu-sdk-15.04.6"
 }
