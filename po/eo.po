@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-25 18:37+0000\n"
+"POT-Creation-Date: 2017-02-11 16:24+0000\n"
 "PO-Revision-Date: 2016-12-26 18:26+0000\n"
 "Last-Translator: Sof <Unknown>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2016-12-27 05:11+0000\n"
 "X-Generator: Launchpad (build 18298)\n"
-"Language: eo\n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:100
@@ -83,7 +83,7 @@ msgstr "Subteno"
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:132
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/HomePage.qml:31
-#: /home/dawndiy/workspace/ubuntu-touch/build-recorder-Ubuntu_Device2_GCC_armhf_ubuntu_sdk_15_04_device_armhf_15_04-Debug/Recorder/Recorder.desktop.h:1
+#: /home/dawndiy/workspace/ubuntu-touch/build-recorder-UbuntuSDK_for_device_armhf_15_04_GCC_armhf_ubuntu_sdk_15_04-Release/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "Registrilo"
 
@@ -101,13 +101,11 @@ msgstr "Audio Registrilo por Ubuntu."
 #. TRANSLATORS: release license
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:174
 msgid ""
-"Released under the terms of the <a "
-"href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\">GNU GPL "
-"v3</a>"
+"Released under the terms of the <a href=\"https://github.com/dawndiy/"
+"recorder/blob/master/LICENSE\">GNU GPL v3</a>"
 msgstr ""
-"Liberigita sub la kondiĉoj de la <a "
-"href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\">GNU GPL "
-"v3</a>"
+"Liberigita sub la kondiĉoj de la <a href=\"https://github.com/dawndiy/"
+"recorder/blob/master/LICENSE\">GNU GPL v3</a>"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:184
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/DonatePage.qml:30
