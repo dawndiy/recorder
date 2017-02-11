@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-25 18:37+0000\n"
-"PO-Revision-Date: 2016-12-26 02:37+0800\n"
-"Last-Translator: Cheng Lu <dawndiy.dev@gmail.com>\n"
+"PO-Revision-Date: 2016-12-25 22:46+0000\n"
+"Last-Translator: Cheng Lu <chenglu1990@gmail.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Launchpad-Export-Date: 2016-12-26 05:02+0000\n"
+"X-Generator: Launchpad (build 18298)\n"
+"Language: \n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:100
@@ -102,8 +102,9 @@ msgstr "Ubuntu 音频录音机。"
 #. TRANSLATORS: release license
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:174
 msgid ""
-"Released under the terms of the <a href=\"https://github.com/dawndiy/"
-"recorder/blob/master/LICENSE\">GNU GPL v3</a>"
+"Released under the terms of the <a "
+"href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\">GNU GPL "
+"v3</a>"
 msgstr ""
 "使用 <a href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\">GNU "
 "GPL v3</a> 条款发布"
@@ -442,20 +443,3 @@ msgstr "比特率"
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:489
 msgid "Do you want reset settings?"
 msgstr "你确定要重置设置？"
-
-#, fuzzy
-#~ msgid "%1 default"
-#~ msgstr "默认"
-
-#~ msgid "default"
-#~ msgstr "默认"
-
-#, fuzzy
-#~ msgid "Normal Quality (default)"
-#~ msgstr "正常品质"
-
-#~ msgid "Released under the terms of the GNU GPL v3"
-#~ msgstr "使用 GNU GPL v3 条款发布"
-
-#~ msgid "Disable Screen Saver"
-#~ msgstr "关闭屏保"

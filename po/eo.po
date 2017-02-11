@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-25 18:37+0000\n"
-"PO-Revision-Date: 2016-12-17 19:08+0000\n"
+"PO-Revision-Date: 2016-12-26 18:26+0000\n"
 "Last-Translator: Sof <Unknown>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
-"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-12-18 05:35+0000\n"
+"X-Launchpad-Export-Date: 2016-12-27 05:11+0000\n"
 "X-Generator: Launchpad (build 18298)\n"
+"Language: eo\n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:100
@@ -35,12 +35,11 @@ msgstr "Malalta kvalito"
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:123
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:183
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:198
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 (default)"
-msgstr "defaŭlta"
+msgstr "%1 (defaŭlto)"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:104
-#, fuzzy
 msgid "Normal Quality"
 msgstr "Normala kvalito"
 
@@ -55,7 +54,6 @@ msgid "Very High Quality"
 msgstr "Tre alta kvalito"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:115
-#, fuzzy
 msgid "Constant Quality"
 msgstr "Konstanta kvalito"
 
@@ -103,11 +101,13 @@ msgstr "Audio Registrilo por Ubuntu."
 #. TRANSLATORS: release license
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:174
 msgid ""
-"Released under the terms of the <a href=\"https://github.com/dawndiy/"
-"recorder/blob/master/LICENSE\">GNU GPL v3</a>"
+"Released under the terms of the <a "
+"href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\">GNU GPL "
+"v3</a>"
 msgstr ""
-"Liberigita sub la kondiĉoj de la <a href=\"https://github.com/dawndiy/"
-"recorder/blob/master/LICENSE\">GNU GPL v3</a>"
+"Liberigita sub la kondiĉoj de la <a "
+"href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\">GNU GPL "
+"v3</a>"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:184
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/DonatePage.qml:30
@@ -130,7 +130,7 @@ msgstr "Kontakto"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:217
 msgid "Translations"
-msgstr ""
+msgstr "Tradukoj"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/AboutPage.qml:220
 msgid "Icon"
@@ -166,12 +166,12 @@ msgstr "Registro estas savita en %1"
 #. TRANSLATORS: The text of the button to skip the introduction page.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:40
 msgid "Skip"
-msgstr ""
+msgstr "Preterpasi"
 
 #. TRANSLATORS: The title of introduction page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:54
 msgid "Easy to recording"
-msgstr ""
+msgstr "Facila registrado"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:55
 msgid ""
@@ -179,22 +179,27 @@ msgid ""
 "2. Play button to play recording.\n"
 "3. Stop button to stop recording or play."
 msgstr ""
+"1. Rekordbutono por komenci registrado.\n"
+"2. Ludbutono por ludi registrado.\n"
+"3. Haltbutono por halti registradon aŭ ludi."
 
 #. TRANSLATORS: The title of introduction page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:59
 msgid "Rich set of options"
-msgstr ""
+msgstr "Riĉa aro de ebloj"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:60
 msgid ""
 "1. Reset action to restore the default settings.\n"
 "2. Expand more advanced settings."
 msgstr ""
+"1. Reŝargu agon por restarigi la defaŭltajn agordojn.\n"
+"2. Pliampleksigu pli  por altnivelaj agordoj."
 
 #. TRANSLATORS: The title of introduction page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:64
 msgid "Easy-to-use recorded file list"
-msgstr ""
+msgstr "Facila uzado de registrita dosierlisto"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:65
 msgid ""
@@ -203,11 +208,15 @@ msgid ""
 "3. Delete recorded file.\n"
 "4. Click item to play recording directly."
 msgstr ""
+"1. Alinomu registritan dosieron.\n"
+"2. Kontrolu registradinformojn.\n"
+"3. Forigu registritan dosieron.\n"
+"4. Klaku elementon por ludi registradon rekte."
 
 #. TRANSLATORS: Start App
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:139
 msgid "Start"
-msgstr ""
+msgstr "Startigi"
 
 #. TRANSLATORS: Title of the export files page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:70
@@ -434,14 +443,3 @@ msgstr "Bitkvanto"
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:489
 msgid "Do you want reset settings?"
 msgstr "Ĉu vi volas reagordi agordojn?"
-
-#, fuzzy
-#~ msgid "%1 default"
-#~ msgstr "defaŭlta"
-
-#~ msgid "default"
-#~ msgstr "defaŭlta"
-
-#, fuzzy
-#~ msgid "Normal Quality (default)"
-#~ msgstr "Normala kvalito"
