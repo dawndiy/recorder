@@ -1,0 +1,47 @@
+name: recorder
+version: '0.1'
+summary: recorder
+description: |
+  This is recorder snap application
+
+grade: stable 
+confinement: devmode
+
+apps:
+  recorder:
+    command: desktop-launch Recorder
+    plugs: [network, unity7, home, opengl]
+
+parts:
+  app:
+    source: .
+    plugin: qmake
+    qt-version: qt5
+    options:
+      - CONFIG += SNAP_APP
+    stage-packages:
+      - overlay-scrollbar-gtk2
+      - libgail-3-0
+      - libatk-bridge2.0-0
+      - libatk-adaptor
+      - unity-gtk2-module:amd64
+      - libcanberra-gtk-module:amd64
+      - fonts-wqy-zenhei
+      - libqt5multimedia5
+      - qtdeclarative5-qtquick2-plugin
+      - qtdeclarative5-qtmultimedia-plugin
+      - qtdeclarative5-ubuntu-content1
+      - qml-module-qt-labs-folderlistmodel
+      - libqt5qml-graphicaleffects
+      - qml-module-ubuntu-components
+      - qml-module-qt-labs-settings
+      - qml-module-qtsysteminfo
+      - gstreamer1.0-plugins-bad
+      - gstreamer1.0-plugins-ugly
+      - libqt5multimedia5-plugins
+      - gstreamer1.0-plugins-good
+      - libasound2
+      - libsoundtouch1
+      - gstreamer1.0-plugins-bad-videoparsers
+      - gstreamer1.0-plugins-bad-faad
+    after: [desktop-qt5]
