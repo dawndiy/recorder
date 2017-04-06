@@ -9,11 +9,13 @@
 A beautiful audio recorder for Ubuntu Touch.
 
 ## Screenshots
-<img src="screenshots/phone00.png" width="160" />
-<img src="screenshots/phone01.png" width="160" />
-<img src="screenshots/phone02.png" width="160" />
-<img src="screenshots/phone03.png" width="160" />
-<img src="screenshots/phone04.png" width="160" />
+<div>
+  <img src="screenshots/phone00.png" width="160" style="display:inline;" />
+  <img src="screenshots/phone01.png" width="160" style="display:inline;" />
+  <img src="screenshots/phone02.png" width="160" style="display:inline;" />
+  <img src="screenshots/phone03.png" width="160" style="display:inline;" />
+  <img src="screenshots/phone04.png" width="160" style="display:inline;" />
+</div>
 
 ## Features
 
