@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=recorder
+Name=Recorder
+Icon=${SNAP}/meta/gui/icon.png

@@ -43,7 +43,12 @@ desktop_file.CONFIG += no_check_exist
 INSTALLS+=desktop_file
 
 # Default rules for deployment.
-target.path = $${UBUNTU_CLICK_BINARY_PATH}
+SNAP_APP {
+   target.path = /bin
+} else {
+   target.path = $${UBUNTU_CLICK_BINARY_PATH}
+}
+
 INSTALLS+=target
 
 DISTFILES += \
