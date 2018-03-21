@@ -8,15 +8,13 @@ msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-11 16:24+0000\n"
-"PO-Revision-Date: 2017-01-08 07:19+0000\n"
-"Last-Translator: Adolfo Jayme <fitoschido@gmail.com>\n"
-"Language-Team: Spanish <es@li.org>\n"
+"PO-Revision-Date: 2018-03-13 20:20+0100\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
+"Language-Team: UBports Spanish Team\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-01-09 06:00+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/Main.qml:100
@@ -177,6 +175,9 @@ msgid ""
 "2. Play button to play recording.\n"
 "3. Stop button to stop recording or play."
 msgstr ""
+"1. Botón grabar inicia la grabación.\n"
+"2. Botón reproducir reproduce la grabación.\n"
+"3. Botón parar para la grabación o reproducción."
 
 #. TRANSLATORS: The title of introduction page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:59
@@ -188,6 +189,8 @@ msgid ""
 "1. Reset action to restore the default settings.\n"
 "2. Expand more advanced settings."
 msgstr ""
+"1. Reiniciar para restaurar los valores predeterminados.\n"
+"2. Expandir más configuraciones avanzadas."
 
 #. TRANSLATORS: The title of introduction page
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:64
@@ -201,6 +204,10 @@ msgid ""
 "3. Delete recorded file.\n"
 "4. Click item to play recording directly."
 msgstr ""
+"1. Renombrar el archivo grabado.\n"
+"2. Revisar la información de la grabación.\n"
+"3. Borrar el archivo grabado.\n"
+"4. Pulse en el elemento para reproducir la grabación directamente."
 
 #. TRANSLATORS: Start App
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/IntroPage.qml:139
@@ -260,7 +267,7 @@ msgstr "Se ha eliminado %1."
 #. TRANSLATORS: An action name for rename the file name.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:283
 msgid "Rename"
-msgstr "Cambiar nombre"
+msgstr "Renombrar"
 
 #. TRANSLATORS: An action name for the record file info.
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:297
@@ -306,7 +313,7 @@ msgstr "<b>Última modificación</b>: %1"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:486
 msgid "Rename Record File"
-msgstr "Cambiar nombre de grabación"
+msgstr "Renombrar el archivo de la grabación"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/RecordsPage.qml:487
 msgid "Please enter a new file name."
@@ -431,4 +438,4 @@ msgstr "Tasa de bits"
 
 #: /home/dawndiy/workspace/ubuntu-touch/recorder/Recorder/ui/SettingsPage.qml:489
 msgid "Do you want reset settings?"
-msgstr "¿Quiere restablecer la configuración?"
+msgstr "¿Quiere restablecer la configuración?" 
