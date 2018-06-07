@@ -6,7 +6,7 @@
     "hooks": {
         "Recorder": {
             "apparmor": "Recorder/Recorder.apparmor",
-            "desktop": "Recorder/Recorder.desktop",
+            "desktop": "/Recorder/Recorder.desktop",
             "content-hub": "Recorder/Recorder-content.json"
         }
     },
