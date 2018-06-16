@@ -341,7 +341,7 @@ Page {
             }
 
             ListItem {
-                visible: settingsPage.state === "advanced" && settings.audioCodec !== "audio/vorbis" && settings.audioCodec !== "default"
+                visible: settingsPage.state === "advanced" && settings.audioCodec !== "audio/x-vorbis" && settings.audioCodec !== "default"
                 height: visible ? channelLayout.height + (divider.visible ? divider.height : 0) : 0
                 highlightColor: "#246588"
 

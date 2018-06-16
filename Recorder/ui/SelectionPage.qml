@@ -31,7 +31,7 @@ Page {
 
     function selectCodec(index, data) {
         settings.audioCodec = data
-        if (data === "audio/vorbis") {
+        if (data === "audio/x-vorbis") {
             settings.channels = 1
         }
     }

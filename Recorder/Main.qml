@@ -179,7 +179,7 @@ MainView {
             for (var i = 0; i < codec_list.length; i++) {
                 var codec = codec_list[i]
                 var codec_item = { name: codec, value: codec}
-                if (codec === "audio/vorbis") {
+                if (codec === "audio/x-vorbis") {
                     codec_item.name = i18n.tr("%1 (default)").arg(codec_item.name)
                     recorder.codecData.default_index = i
                 }
@@ -194,7 +194,7 @@ MainView {
             for (var i = 0; i < container_list.length; i++) {
                 var container = container_list[i]
                 var container_item = { name: container, value: container }
-                if (container === "ogg") {
+                if (container === "audio/ogg") {
                     container_item.name = i18n.tr("%1 (default)").arg(container_item.name)
                     recorder.containerData.default_index = i
                 }

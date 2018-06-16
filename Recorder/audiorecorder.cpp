@@ -47,8 +47,8 @@ AudioRecorder::AudioRecorder(QObject *parent) : QObject(parent)
     }
 
     // default audio settings
-    m_audioCodec = "audio/vorbis";
-    m_fileContainer = "ogg";
+    m_audioCodec = "audio/x-vorbis";
+    m_fileContainer = "audio/ogg";
     m_channels = 2;
     m_encodingMode = QualityMode;
     m_encodingQuality = NormalQuality;
@@ -147,7 +147,7 @@ void AudioRecorder::setAudioCodec(const QString &codec)
 {
     QString _codec = codec;
     if (_codec == "default") {
-        _codec = "audio/vorbis";
+        _codec = "audio/x-vorbis";
     }
 
     if (_codec != m_audioCodec) {
@@ -160,7 +160,7 @@ void AudioRecorder::setFileContainer(const QString &container)
 {
     QString _container = container;
     if (_container == "default") {
-        _container = "ogg";
+        _container = "audio/ogg";
     }
 
     if (_container != m_fileContainer) {
@@ -228,7 +228,7 @@ void AudioRecorder::record()
 
     m_audioRecorder->setVolume(m_microphoneVolume / 100.0);
     m_audioSettings.setCodec(m_audioCodec);
-    if (m_audioCodec != "audio/vorbis") {
+    if (m_audioCodec != "audio/x-vorbis") {
         m_audioSettings.setChannelCount(m_channels);
     }
     m_audioSettings.setEncodingMode((QMultimedia::EncodingMode)m_encodingMode);
@@ -339,7 +339,7 @@ QString AudioRecorder::newFileName()
     QString fileExtension;
     if (m_fileContainer == "matroska") {
         fileExtension = "mkv";
-    } else if (m_fileContainer == "ogg") {
+    } else if (m_fileContainer == "audio/ogg") {
         fileExtension = "ogg";
     } else if (m_fileContainer == "wav") {
         fileExtension = "wav";
