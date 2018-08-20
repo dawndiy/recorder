@@ -44,3 +44,6 @@ po/template.pot
 
 # click
 *.click
+
+# clickable
+build/*
